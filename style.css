@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(white, blue);
+  height: 100vh;
+  width: 100vw;
+}
+nav {
+  display: block;
+  margin: auto;
+  height: 50px;
+  width: 300px;
+}
+
+nav h1 {
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.messageContainer {
+  max-width: 950px;
+  background: none;
+  margin: auto;
+  height: 80vh;
+  border: 2px solid black;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+
+.message {
+  background-color: grey;
+  width: 24%;
+  margin: 5px 10px;
+  /* margin-top: 10px; */
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 7px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+
+#send-container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#send-container input{
+    margin: 10px;
+    padding: 2px;
+    border-radius: 5px;
+    width: 800px;
+    height: 20px;
+    outline: none;
+   font-size: 20px;
+}
+
+#send-container button{
+    margin: 10px;
+    padding: 2px;
+    /* border-radius: 20px; */
+    width: 70px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    height: 50px;
+    width: 50px;
+    border: none;
+   
+}
+
+#send-container button svg{
+  
+  height: 40px;
+  width: 40px;
+ 
+}
